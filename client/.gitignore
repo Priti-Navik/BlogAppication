@@ -8,9 +8,19 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
-dist-ssr
+
+# dist
+# dist-ssr
 *.local
+
+
+# Ignore all dist directories
+#dist/
+
+# Except the one in client
+#!client/dist/
+
+
 
 # Editor directories and files
 .vscode/*
